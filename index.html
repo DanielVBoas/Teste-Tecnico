@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Endereço por CEP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Endereço por CEP</h1>
+        <div class="form-group">
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" placeholder="00000-000" maxlength="9">
+            <button id="consultar">Consultar</button>
+            <button id="limpar">Limpar Dados</button>
+        </div>
+        <div class="result">
+            <h2>Dados do Endereço:</h2>
+            <p id="rua">Rua: </p>
+            <p id="bairro">Bairro: </p>
+            <p id="cidade">Cidade: </p>
+            <p id="estado">Estado: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
